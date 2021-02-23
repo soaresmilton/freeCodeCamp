@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500;600;700&family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+font-family: 'IBM Plex Sans', sans-serif;
+background:var(--reggae-bg);
+}
+
+:root {
+  --text: rgb(27, 26, 26);
+  --title: #f2f2f2;
+  --reggae: linear-gradient(to bottom, #B21F1F 15%, #F6C81D, #296330);
+  --reggae-bg: linear-gradient(to left, #B21F1F90, #F6C81D90, #29633090);
+}
+
+h1, h2, h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--title);
+}
+
+p {
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--text);
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/ResponsiveWebDesignCertification/TributePage/assets/images/bob-marley-img2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header .title-container {
+ text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+header #title {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 6rem;
+
+  background: var(--reggae);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+header #sub-title {
+  font-size: 3rem;
+}
+
+.content {
+  display: flex;
+  padding: 4rem;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  max-width: 50%;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+}
+
+
+.description {
+  width: 50%;
+  margin-left:2em;
+}
+
+.description h2 {
+  color: rgba(0, 0, 0, .8);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+
+.infos {
+  display: flex;
+  background: #f2f2f2;
+  height: 100%;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link{
+  margin-top: .5rem;
+}
+
+.btn {
+  background: #296330;
+  color: #fff;
+  border-radius: .4rem;
+  transition: .5s;
+  padding: 10px;
+}
+
+.btn:hover {
+  background: #F6C81D;
+}
+
+.video {
+  text-align: center;
+  padding: 2rem;
+  background: #f2f2f2;
+
+}
+
+.video h2{
+  color: rgba(0, 0, 0, .8);
+
+}
+
+footer {
+  background: #00374a;
+  color: #fff;
+  height: 10vh;
+  padding: 1rem;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  transition: .3s;
+}
+footer a:hover {
+  color: #F6C81D  ;
+}
+
+@media screen and (max-width: 700px) {
+  iframe {
+    display: none;
+    visibility: hidden;
+  }
+  .video {
+    display: none;
+    visibility: hidden;
+  }
+
+  .content {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #tribute-info {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 460px) {
+  header #title {
+    font-size: 4rem;
+  }
+
+  header #sub-title {
+    font-size: 2rem;
+  }
+  
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/ResponsiveWebDesignCertification/TributePage/assets/images/bob-marley-img2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.description {
+  padding: 0;
+  margin: 0;
+}
+}

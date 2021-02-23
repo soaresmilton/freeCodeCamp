@@ -6,6 +6,9 @@ Repositório dedicado a armazenar os projetos referentes aos cursos do FreeCodeC
 
 ## Responsive Web Design Certification
 ### Projeto 1: Build a Tribute page
+
+Tribute Page para o [Bob Marley](https://github.com/soaresmilton/freeCodeCamp/tree/main/ResponsiveWebDesignCertification/TributePage)
+
 ### Projeto 2: Build a Survey Form
 ### Projeto 3: Build a Product Landing Page
 ### Projeto 4: Build a Techinical Documentation Page
